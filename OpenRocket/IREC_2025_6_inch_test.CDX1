@@ -69,8 +69,8 @@
         <Count>4</Count>
         <Chord>36.35</Chord>
         <Span>7</Span>
-        <SweepDistance>24.5153</SweepDistance>
-        <TipChord>8.5</TipChord>
+        <SweepDistance>28</SweepDistance>
+        <TipChord>9</TipChord>
         <Thickness>0.25</Thickness>
         <LERadius>0</LERadius>
         <Location>37</Location>
@@ -118,7 +118,7 @@
       <SustainerEngine>O5500X  (AT)</SustainerEngine>
       <SustainerLaunchWt>79.5</SustainerLaunchWt>
       <SustainerNozzleDiameter>3.5</SustainerNozzleDiameter>
-      <SustainerCG>90.19</SustainerCG>
+      <SustainerCG>90.9</SustainerCG>
       <SustainerIgnitionDelay>0</SustainerIgnitionDelay>
       <Booster1LaunchWt>0</Booster1LaunchWt>
       <Booster1SeparationDelay>0</Booster1SeparationDelay>
@@ -132,9 +132,9 @@
       <Booster2NozzleDiameter>0</Booster2NozzleDiameter>
       <IncludeBooster2>False</IncludeBooster2>
       <FlightTime>0</FlightTime>
-      <TimetoApogee>40.5492</TimetoApogee>
-      <MaxAltitude>30916.61</MaxAltitude>
-      <MaxVelocity>1969.617</MaxVelocity>
+      <TimetoApogee>38.89948</TimetoApogee>
+      <MaxAltitude>28901.11</MaxAltitude>
+      <MaxVelocity>1945.54</MaxVelocity>
       <OptimumWt>46.70626</OptimumWt>
       <OptimumMaxAlt>46.70626</OptimumMaxAlt>
     </Simulation>

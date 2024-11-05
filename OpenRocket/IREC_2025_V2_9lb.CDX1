@@ -76,7 +76,7 @@
       <RailGuideHeight>0</RailGuideHeight>
       <LaunchShoeArea>0</LaunchShoeArea>
       <Location>71.9999</Location>
-      <Color>Blue</Color>
+      <Color>Black</Color>
       <BoattailLength>2.9528</BoattailLength>
       <BoattailRearDiameter>3.5</BoattailRearDiameter>
       <BoattailOffset>0</BoattailOffset>
@@ -84,13 +84,13 @@
       <Fin>
         <Count>4</Count>
         <Chord>28.9999</Chord>
-        <Span>4.25</Span>
+        <Span>4</Span>
         <SweepDistance>21.6717</SweepDistance>
         <TipChord>4</TipChord>
         <Thickness>0.1181</Thickness>
         <LERadius>0</LERadius>
         <Location>28.9999</Location>
-        <AirfoilSection>Square</AirfoilSection>
+        <AirfoilSection>Rounded</AirfoilSection>
         <FX1>0</FX1>
         <FX3>0</FX3>
       </Fin>
