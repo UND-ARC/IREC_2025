@@ -53,8 +53,8 @@ class WorkThread(QThread):
 
     def run(self):
         global picam2
-        # picam2 = Picamera2()
-        # picam2.configure( picam2.still_configuration(main={"size": (320, 240),"format": "BGR888"},buffer_count=1))
+        #picam2 = Picamera2()
+        #picam2.configure( picam2.still_configuration(main={"size": (320, 240),"format": "BGR888"},buffer_count=1))
 
         flag = False
 
@@ -108,7 +108,7 @@ image_label2 = QLabel()
 image_label3 = QLabel()
 image_label4 = QLabel()
 
-# picam2 = Picamera2()
+#picam2 = Picamera2()
 
 work = WorkThread()
 
