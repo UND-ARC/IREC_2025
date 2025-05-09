@@ -1,0 +1,232 @@
+Transcript Start Time:  21:11:34, 19 Feb 2025 Central Standard Time 
+Current Directory: "C:\Users\Khaug"
+
+Build Time: Nov 26 2024 13:31:42 EST 
+Executable Path: D:/ANSYS Inc/ANSYS Student/v251/fluent/ntbin/win64/fluent.exe
+
+-------------------------------------------------------------------------------------------
+ID    Hostname         Core  O.S.         PID    Vendor                                   
+-------------------------------------------------------------------------------------------
+n1    DESKTOP-6BV7IB3  2/16  Windows-x64  33968  AMD Ryzen 9 5900HX with Radeon Graphics  
+n0*   DESKTOP-6BV7IB3  1/16  Windows-x64  6564   AMD Ryzen 9 5900HX with Radeon Graphics  
+host  DESKTOP-6BV7IB3        Windows-x64  17456  AMD Ryzen 9 5900HX with Radeon Graphics  
+
+MPI Option Selected: intel
+Selected system interconnect: default
+-------------------------------------------------------------------------------------------
+
+Cortex Process ID: 4728 
+License Server Path: () 
+Reading "D:\Rocketry\IREC_2025\IREC_FKYWKY_files\dp0\FFF\Fluent\FFF.msh.h5" ...
+3D mesh
+nodes: 20043
+edges: 1819
+faces: 17200 
+cells: 0 
+reading 4 node zones
+reading 10 edge zones
+reading 7 face zones
+generating pointers...done.
+extracting boundary entities...
+ 20043 boundary nodes.
+ 17200 boundary faces.
+ 7 boundary face zones.
+done.
+analyzing boundary connectivity...done.
+
+Importing one geom object per program-controlled and one zone per body ...
+writing cad import logs to "D:\Rocketry\IREC_2025\IREC_FKYWKY_files\dp0\FFF\Fluent\\cadImport1740021112.416576.log"
+
+Reading "D:\Rocketry\IREC_2025\IREC_FKYWKY_files\dp0\FFF\Fluent\FM_DESKTOP-6BV7IB3_4728/out1740021112.4012244728.tgf"...
+Reading "D:\Rocketry\IREC_2025\IREC_FKYWKY_files\dp0\FFF\Fluent\FM_DESKTOP-6BV7IB3_4728/out1740021112.4012244728.tgf"...
+nodes: 1650
+edges: 1061
+faces: 1177
+cells: 0
+reading 1650 storage data (id 1, type 41, double precision binary).
+generating pointers...done.
+extracting boundary entities...
+ 1650 boundary nodes.
+ 1177 boundary faces.
+ 5 boundary face zones.
+done.
+analyzing boundary connectivity...done.
+
+---------------- Import of FFF, consisting of one single part/object , complete. 
+ 
+
+---------------- Import complete in  0.32 minutes.
+
+---------------- 1 cells per gap was added to  proximity_1
+Writing "D:\Rocketry\IREC_2025\IREC_FKYWKY_files\dp0\FFF\Fluent\Workflow\TaskObject3.msh.h5" ...
+writing 1 node zones
+writing 7 edge zones 
+writing 5 face zones 
+writing node curvature data
+done.    processing size functions/scoped sizing to create Size Field...
+
+Writing "D:\Rocketry\IREC_2025\IREC_FKYWKY_files\dp0\FFF\Fluent\FM_DESKTOP-6BV7IB3_4728\FFF.sf"...
+Writing "D:\Rocketry\IREC_2025\IREC_FKYWKY_files\dp0\FFF\Fluent\FM_DESKTOP-6BV7IB3_4728\FFF.sf"...
+Done.
+
+
+Importing one mesh object per program-controlled and one zone per body ...
+writing cad import logs to "D:\Rocketry\IREC_2025\IREC_FKYWKY_files\dp0\FFF\Fluent\\cadImport1740021126.358567.log"
+
+Reading "D:\Rocketry\IREC_2025\IREC_FKYWKY_files\dp0\FFF\Fluent\FM_DESKTOP-6BV7IB3_4728/out1740021126.3449164728.tgf"...
+Reading "D:\Rocketry\IREC_2025\IREC_FKYWKY_files\dp0\FFF\Fluent\FM_DESKTOP-6BV7IB3_4728/out1740021126.3449164728.tgf"...
+nodes: 14290
+edges: 2364
+faces: 23984
+cells: 0
+appending mesh...
+done.
+generating pointers...done.
+extracting boundary entities...
+ 15940 boundary nodes.
+ 25161 boundary faces.
+ 10 boundary face zones.
+done.
+
+Reading "D:\Rocketry\IREC_2025\IREC_FKYWKY_files\dp0\FFF\Fluent\FM_DESKTOP-6BV7IB3_4728\\FFF.sf"...
+Reading "D:\Rocketry\IREC_2025\IREC_FKYWKY_files\dp0\FFF\Fluent\FM_DESKTOP-6BV7IB3_4728\\FFF.sf"...
+ Read 26872 vertices
+0 faces marked.
+
+    computing regions...done
+Deleting import_curvature_0
+Deleting import_proximity_0
+Deleting proximity_1_faces
+    processing size functions/scoped sizing to create Size Field...
+
+Writing "D:\Rocketry\IREC_2025\IREC_FKYWKY_files\dp0\FFF\Fluent\FM_DESKTOP-6BV7IB3_4728\FFF.sf"...
+Writing "D:\Rocketry\IREC_2025\IREC_FKYWKY_files\dp0\FFF\Fluent\FM_DESKTOP-6BV7IB3_4728\FFF.sf"...
+Done.
+
+
+remeshing...
+
+---- Warning--- 1 disconnected parts were detected. If this is NOT a 'box-in-box' configuration, Edit Generate the Surface Mesh task and set the 'Check Self-Intersection?' flag to 'no'
+
+
+------------------------- --------------------- -------------------- ---------------- ----------
+                     name skewed-cells (> 0.80)    averaged-skewness maximum-skewness face count
+------------------------- --------------------- -------------------- ---------------- ----------
+
+                      air                   130           0.03604949                1      23404
+             dead0-rocket                   130           0.03815413                1      20284
+------------------------- --------------------- -------------------- ---------------- ----------
+                     name skewed-cells (> 0.80)    averaged-skewness maximum-skewness face count
+------------------------- --------------------- -------------------- ---------------- ----------
+
+                      air                   260          0.037026658                1      23404
+
+---------------- After Surface mesh, the model consists of 1 fluid/solid regions and 1 voids.
+
+---------------- Surface Meshing of FFF complete in  0.21 minutes, with a maximum skewness of  1.00. 
+
+
+---- Warning--- To improve the quality, insert the 'Improve Surface Mesh' task
+
+The camera view is not updated because the camera position cannot be directly on top of the camera target position. That is, the up vector must be perpendicular to the line of sight, they cannot be collinear.
+When the provided up vector is not perpendicular to the line of sight, the up vector is projected onto a plane that is perpendicular to the line of sight. This updated vector is used to determine the positive direction of the y-axis.
+The direction remains unchanged because either the newly provided up vector's projection is the same as the current camera's up vector direction or the provided up vector is in the line of sight.
+
+---------------- Velocity-inlet zone type was automatically assigned to zones containing the string '*inlet*'.
+
+---------------- Pressure-outlet zone type was automatically assigned to zones containing the string '*outlet*'.
+
+---------------- Describe Geometry task complete in  0.00 minutes.
+
+---------------- Boundary Conditions Updated
+Writing "D:\Rocketry\IREC_2025\IREC_FKYWKY_files\dp0\FFF\Fluent\Workflow\TaskObject8.msh.h5" ...
+writing 3 node zones
+writing 17 edge zones 
+writing 10 face zones 
+writing node curvature data
+done.
+---- Warning--- The initial surface mesh quality is  1.00. Insert the Surface Mesh Improve task to obtain a better mesh quality.
+
+---------------- Region identification of air complete in  0.00 minutes. All Regions are displayed. 
+
+---------------- Regions Updated
+
+Created Scoped Prism: smooth-transition_1
+
+---------------- Inflation control added to air
+Writing "D:\Rocketry\IREC_2025\IREC_FKYWKY_files\dp0\FFF\Fluent\Workflow\TaskObject11.msh.h5" ...
+writing 3 node zones
+writing 17 edge zones 
+writing 10 face zones 
+writing node curvature data
+done.Found 8 faces with invalid dihedral angle
+
+Warning : The following region(s) cannot be deleted as it is completely enclosed by other live regions
+ (dead0)
+
+    updating regions...
+    done.
+checking object "air"...
+    skipping validating regions of mesh object "air"...done.
+auto meshing object air...
+
+processing scoped prisms...
+    starting orientation...
+done.
+    setting prism growth...done.
+done.
+Identifying Topology...
+
+The octree hexcore cells will be refined using local surface mesh sizes and body of influence (boi) size controls, if there are any defined.
+Generating Prisms...
+
+---- Warning --- Prism stair-step has occured in 2 location(s).
+
+Generating Pyramids...
+    split boundary faces = (1989)
+
+Generating initial mesh...
+
+===============Message from the Cortex Process================================
+
+Compute processes interrupted. Processing can be resumed.
+
+==============================================================================
+<warning>Warning: edge bn29414-bn29412 intersects face bf43950 (-0.035921 -0.000547 -0.005290).
+
+</warning>
+Error at Node 0: tet intialization failed possibly due to duplicate nodes/faces or intersections.
+
+Error at Node 1: tet intialization failed possibly due to duplicate nodes/faces or intersections.
+
+Merging Domains...
+
+===============Message from the Cortex Process================================
+
+Compute processes interrupted. Processing can be resumed.
+
+==============================================================================
+
+Error at Node 1: SIGSEGV(segmentation violation)
+
+Error at Node 0: SIGSEGV(segmentation violation)
+done.
+
+Error: An error occured during task update
+
+An error occured during task update
+
+Auto mesh failed.
+Error Object: #f
+Fast-loading "D:\ANSYS Inc\ANSYS Student\v251\fluent\fluent25.1.0\\addons\afd\lib\hdfio.bin"
+Done.
+
+Interior face zone interior-1986 changed to boundary face zone.
+  87203 nodes moved to new boundary node zone boundary-node-2009
+0 nodes moved to existing boundary node zone boundary-node-1983
+Interior face zone interior-1948 changed to boundary face zone.
+  22915 nodes moved to existing boundary node zone boundary-node-2009
+0 nodes moved to existing boundary node zone boundary-node-1983Moved 19764 triangular faces from rocket to new zone rocket:2010.
+Moved 84 quadrilateral faces from outlet to new zone outlet:2011.
+Moved 84 quadrilateral faces from inlet to new zone inlet:2012.
+Writing "D:\Rocketry\IREC_2025\IREC_FKYWKY_files\dp0\FFF\Fluent\FFF.1.msh.h5" ...
