@@ -30,7 +30,7 @@ camera_configs = [
 ]
 
 
-loops = 10        #loops is total number of times it runs through camera
+loops = 18000        #loops is total number of times it runs through camera
 duration = 0.4      #duration is amount of time recorded for cameras, -0.3s for switching, always need to be >=0.3
 segment_dir = "segments"
 
