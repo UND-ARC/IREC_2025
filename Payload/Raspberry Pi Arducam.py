@@ -26,7 +26,7 @@ camera_configs = [
     {"label": "A", "i2c": "0x04", "gpio": (False, False, True)},
     {"label": "B", "i2c": "0x05", "gpio": (True, False, True)},
     {"label": "C", "i2c": "0x06", "gpio": (False, True, False)},
-    {"label": "D", "i2c": "0x07", "gpio": (True, True, False)}
+    #{"label": "D", "i2c": "0x07", "gpio": (True, True, False)}
 ]
 
 
