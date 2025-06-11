@@ -2,7 +2,7 @@ import time
 from picamera2 import Picamera2
 from picamera2.encoders import H264Encoder
 
-picam2 = Picamera2()
+picam2 = Picamera2(0)    #change to 0 or 1 based on which port the camera is connected to
 video_config = picam2.create_video_configuration()
 picam2.configure(video_config)
 
